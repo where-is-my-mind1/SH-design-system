@@ -1,0 +1,194 @@
+:root
+{
+    /* Color styles */
+    --white: rgba(255, 255, 255, 1);
+    --error: rgba(176, 0, 32, 1);
+    --primary-900: rgba(245, 127, 23, 1);
+    --primary-800: rgba(249, 168, 37, 1);
+    --primary-700: rgba(251, 192, 45, 1);
+    --primary-600: rgba(253, 216, 53, 1);
+    --primary-500: rgba(255, 235, 59, 1);
+    --primary-400: rgba(255, 238, 88, 1);
+    --primary-300: rgba(255, 241, 118, 1);
+    --primary-200: rgba(255, 245, 157, 1);
+    --primary-100: rgba(255, 249, 196, 1);
+    --primary-50: rgba(255, 253, 231, 1);
+    --natural-900: rgba(29, 39, 51, 1);
+    --natural-800: rgba(37, 45, 58, 1);
+    --natural-700: rgba(62, 77, 95, 1);
+    --natural-600: rgba(104, 118, 134, 1);
+    --natural-500: rgba(134, 146, 162, 1);
+    --natural-400: rgba(171, 179, 190, 1);
+    --natural-300: rgba(203, 206, 214, 1);
+    --natural-200: rgba(223, 225, 230, 1);
+    --natural-100: rgba(241, 241, 246, 1);
+    --natural-50: rgba(248, 249, 253, 1);
+    --blue-100: rgba(230, 247, 255, 1);
+    --blue-300: rgba(145, 213, 255, 1);
+    --blue-600: rgba(24, 144, 255, 1);
+    --magenta-100: rgba(251, 240, 255, 1);
+    --magenta-300: rgba(234, 173, 255, 1);
+    --magenta-600: rgba(209, 47, 235, 1);
+    --green-100: rgba(246, 255, 237, 1);
+    --green-300: rgba(183, 235, 143, 1);
+    --green-600: rgba(82, 196, 26, 1);
+    --red-100: rgba(255, 241, 240, 1);
+    --red-300: rgba(255, 163, 158, 1);
+    --red-600: rgba(245, 34, 45, 1);
+    --orange-600: rgba(255, 157, 41, 1);
+    --orange-300: rgba(255, 209, 89, 1);
+    --orange-100: rgba(255, 243, 198, 1);
+    --cyan-100: rgba(230, 255, 251, 1);
+    --cyan-300: rgba(135, 232, 222, 1);
+    --cyan-600: rgba(19, 194, 194, 1);
+
+    /* Text-size styles */
+    /* base size: body--reg (14px) */
+    --h1: 2.86rem;
+    --h2: 2.29rem;
+    --h3: 1.71rem;
+    --h4: 1.43rem;
+    --h5-sb: 1.14rem;
+    --h5-reg: 1.14rem;
+    --h5-med: 1.14rem;
+    --body-reg: 1rem;
+    --body-sb: 1rem;
+    --body-med: 1rem;
+    --label-reg: 0.86rem;
+    --label-med: 1rem;
+    --label-s-b: 0.86rem;
+    --mobile-h1: 1.43rem;
+    --mobile-h2: 1.71rem;
+    --mobile-button: 1rem;
+    --mobile-overline: 0.71rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+section
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1
+{
+    margin-bottom: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--h1);
+    line-height: 48px;
+
+    color: var(--natural-700);
+
+}
+
+p
+{
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--body-reg);
+    line-height: 20px;
+
+    color: var(--natural-800);
+
+}
+
+img
+{
+    height: 217px;
+    margin-top: 4px;
+}
+
+a
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--body-reg);
+    line-height: 20px;
+
+    color: var(--blue-600);
+
+    text-decoration: none;
+
+    display: block;
+
+    margin-top: 12px;
+}
+
+.first-section
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--h2);
+    line-height: 40px;
+
+    color: var(--natural-700);
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ol
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+ol li
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--body-reg);
+    line-height: 20px;
+
+    color: var(--natural-800);
+}
+
+h3
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--h3);
+    line-height: 32px;
+
+    color: var(--natural-700);
+
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h4
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--h4);
+    line-height: 32px;
+
+    color: var(--natural-800);
+
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.margins
+{
+    height: 93px;
+}
