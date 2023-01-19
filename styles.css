@@ -65,6 +65,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
 
+body
+{
+    margin: 0px;
+}
+
+main
+{
+    max-width: 892px;
+    margin: 0 auto;
+}
+
+.navigation-block
+{
+    width: 256px;
+    height: 100%;
+    position: fixed;
+
+    background-color: var(--natural-900);
+}
+
 section
 {
     margin-top: 20px;
@@ -73,6 +93,7 @@ section
 
 h1
 {
+    margin-top: 0px;
     margin-bottom: 24px;
 
     font-family: 'Roboto';
@@ -102,7 +123,8 @@ p
 
 img
 {
-    height: 217px;
+    
+    width: 100%;
     margin-top: 4px;
 }
 
@@ -125,7 +147,8 @@ a
 
 .first-section
 {
-    margin-top: 40px;
+    padding-top: 40px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
