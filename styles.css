@@ -74,7 +74,7 @@ main
 {
     max-width: 892px;
     margin: 0 auto;
-    
+
 }
 
 .navigation-block
@@ -149,8 +149,8 @@ main
 
 section
 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h1
@@ -171,7 +171,7 @@ h1
 p
 {
     margin-top: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -180,6 +180,8 @@ p
     line-height: 20px;
 
     color: var(--natural-800);
+
+    max-width: 600px;
 
 }
 
@@ -211,7 +213,6 @@ a
 {
     padding-top: 40px;
     margin-top: 0px;
-    margin-bottom: 20px;
 }
 
 h2
@@ -224,14 +225,15 @@ h2
 
     color: var(--natural-700);
 
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
 ol
 {
     margin-top: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
+    padding-left: 20px;
 }
 
 ol li
@@ -263,13 +265,13 @@ h4
 {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: var(--h4);
     line-height: 32px;
 
     color: var(--natural-800);
 
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 12px;
 }
 

@@ -4,41 +4,60 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="../styles.css">
-        <title>Navigation</title>
+        <title>Навигация</title>
     </head>
     <body>
-        <section class = "first-section"> <!-- Начало блока h1 из фигмы -->
-            <h1>Навигация</h1>
-            <p>Панели навигации предлагают постоянный и удобный способ переключения между основными пунктами назначения в приложении. Она всегда доступна пользователю.</p>
-            <img src = "../img/button-cover.png" alt = "button cover image"/>
-            <a href = ""> Компонент в Figma </a>
-        </section> <!-- Конец блока h1 из фигмы -->
+       <div class = "navigation-block">
+            <img src = "../img/logo.png" alt = "logotype" class = "logotype"/>
+            <ul>
+                <li>
+                    <div class = "section-name">
+                        <img src = "../img/icons/dropdown.png" alt = "style icon"/>Стили 
+                    </div>
+                    <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li>
+                <li><div class = "section-name">
+                    <img src = "../img/icons/dropdown.png" alt = "style icon"/>Навигация 
+                </div>
+                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li></li>
+                <li><div class = "section-name">
+                    <img src = "../img/icons/dropdown.png" alt = "style icon"/>Компоненты 
+                </div>
+                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li></li>
+            </ul>
+        </div>
+        <main>
+            <section class = "first-section"> <!-- Начало блока h1 из фигмы -->
+                <h1>Навигация</h1>
+                <p>Панели навигации предлагают постоянный и удобный способ переключения между основными пунктами назначения в приложении. Она всегда доступна пользователю.</p>
+                <img src = "../img/navi-cover.png" alt = "navigation cover image"/>
+                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=104%3A232&t=WhiLnjdz4rAiV94M-1"> Компонент в Figma </a>
+            </section> <!-- Конец блока h1 из фигмы -->
 
-        <section>
-            <h2>Анатомия</h2>
-            <img src = "../img/navi-anatomy.png" alt = "anatomy of navigation block"/>
-            <ol>
-                <li>Раздел</li>
-                <li>Выбранный раздел</li>
-            </ol>
-            <h3>Названия разделов</h3>
-            <p>Названия вкладок состоят из 1 существительного, которое кратко описывает тему контента, на который они ссылаются. Названия начинаются с заглавной буквы без знаков препинания.
+            <section>
+                <h2>Анатомия</h2>
+                <img src = "../img/navi-anatomy.png" alt = "anatomy of navigation block"/>
+                <ol>
+                    <li>Раздел</li>
+                    <li>Выбранный раздел</li>
+                </ol>
+                <h3>Названия разделов</h3>
+                <p>Названия вкладок состоят из 1 существительного, которое кратко описывает тему контента, на который они ссылаются. Названия начинаются с заглавной буквы без знаков препинания.</p>
+                <p>Максимальная длина слова: 10 букв.</p>
+                
+            </section>
 
-                Максимальная длина слова: 10 букв.</p>
-            
-        </section>
-
-        <section>
-            <h2>Состояния</h2>
-            <img src = "../img/navi-anatomy.png" alt = "anatomy of navigation block"/>
-            <ol>
-                <li>Раздел</li>
-                <li>Выбранный раздел</li>
-            </ol>
-            
-            <h4>Стандартные отступы</h4>
-            <img src = "../img/margins.png" alt = "" class = "margins"/>
-                <p>aaaaaaaaa</p>
-        </section>
+            <section>
+                <h2>Состояния</h2>
+                <img src = "../img/navi-specs.png" alt = "specification of navigation block"/>
+                <p>Раздел, в котором находится пользователь в данное время выделен основным оранжевым цветом, в то время как остальные — серые.</p>
+                
+                <h4>Стандартные отступы</h4>
+                <img src = "../img/margins.png" alt = "" class = "margins"/>
+                <ol>
+                    <li>body/natural-700</li>
+                    <li>body/primary-500</li>
+                </ol>
+            </section>
+        </main>
     </body>
 </html>
