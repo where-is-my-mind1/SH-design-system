@@ -245,7 +245,30 @@ ol li
     line-height: 20px;
 
     color: var(--natural-800);
+
+    max-width: 600px;
 }
+
+ul
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 13px;
+}
+
+ul li
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--body-reg);
+    line-height: 20px;
+
+    color: var(--natural-800);
+
+    max-width: 600px;
+}
+
 
 h3
 {
