@@ -85,6 +85,67 @@ main
     background-color: var(--natural-900);
 }
 
+.navigation-block ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logotype
+{
+    display: block;
+    cursor: pointer;
+    height: 32px;
+    width: auto;
+    margin: 0px;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+}
+
+
+.navigation-block ul li
+{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--body-reg);
+    line-height: 20px;
+    color: var(--white);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+
+.navigation-block ul li:hover
+{
+    background-color: var(--natural-700);
+}
+
+.navigation-block ul li img
+{
+    width: 16px;
+}
+
+.section-name
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 section
 {
     margin-top: 20px;
