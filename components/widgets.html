@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../styles.css">
+        <title>Шаблон</title> <!-- Тут меняем название страницы (показывается во вкладке в браузере) -->
+    </head>
+    <body>
+        <div class = "navigation-block">
+            <img src = "../img/logo.png" alt = "logotype" class = "logotype"/>
+            <ul>
+                <li>
+                    <div class = "section-name">
+                        <img src = "../img/icons/dropdown.png" alt = "style icon"/>Стили 
+                    </div>
+                    <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li>
+                <li><div class = "section-name">
+                    <img src = "../img/icons/dropdown.png" alt = "style icon"/>Навигация 
+                </div>
+                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li></li>
+                <li><div class = "section-name">
+                    <img src = "../img/icons/dropdown.png" alt = "style icon"/>Компоненты 
+                </div>
+                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li></li>
+            </ul>
+        </div>
+        <main>
+            
+            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                <h1>Виджеты</h1> <!-- Заголовок 1 -->
+                <p>Для разработки интерфейсов на основе дизайн системы Smart home, мы предусмотрели несколько компонентов-виджетов.</p> <!-- Описание компонента -->
+                <ul>
+                    <li>Виджет устройства отображает его состояние — включено или выключено. Также позволяет получить базовую информацию об устройстве — его название, количество таких устройств, тип подключения, зона, в которой оно находится.</li>
+                    <li>Информационный виджет содержит в себе информацию о помещении -- температуру внутри, уровень влажности и давление. Виджет неинтерактивен.</li>
+                </ul>
+                <img src = "../img/widgets-cover.png" alt = "cover image of widgets page"/> <!-- Тут поменять картинку-обложку -->
+                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=134%3A741&t=D32LgzAFVQryRXzH-1">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+            </section> <!-- Конец блока h1 из фигмы -->
+
+            <section> <!-- Начало блока h2 из фигмы -->
+                <h2>Анатомия виджета устройства</h2>
+                <img src = "../img/widgets-device-anatomy.png" alt = "anatomy of device widget"/> <!-- картинка-->
+                <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                    <li>Иконка устройства</li> <!-- Первый элемент -->
+                    <li>Название устройства</li> <!-- Второй элемент -->
+                    <li>Иконка типа подключения (bluetooth, wi-fi)</li>
+                    <li>Количество таких устройств</li>
+                    <li>Зона, где находится устройство (кухня, ванная, гостиная, спальня)</li>
+                    <li>Выкл / вкл</li>
+                </ol>
+            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+            <section> <!-- Начало блока h2 из фигмы -->
+                <h2>Спецификация виджета устройства</h2>
+                <img src = "../img/widgets-device-specs.png" alt = "specification of device widgets"/> <!-- картинка-->
+                <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                    <li>body/natural-900</li> <!-- Первый элемент -->
+                    <li>Чипс (неактивное состоение)</li> <!-- Второй элемент -->
+                    <li>body/natural-700</li>
+                    <li>body/natural-500</li>
+                    <li>Тумблер (все состояния)</li>
+                </ol>
+                <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
+                <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+            <section> <!-- Начало блока h2 из фигмы -->
+                <h2>Связанные компоненты</h2>
+                <ul>
+                    <li>Тумблеры</li>
+                    <li>Чипсы </li>
+                </ul>
+            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+            
+            <section> <!-- Начало блока h2 из фигмы -->
+                <h2>Анатомия виджета с информацией</h2>
+                <img src = "../img/widgets-info-anatomy.png" alt = "anatomy of information widget"/> <!-- картинка-->
+                <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                    <li>Температура в °C</li> <!-- Первый элемент -->
+                    <li>Иконка </li> <!-- Второй элемент -->
+                    <li>Уровень влажности воздуха (в процентах)</li>
+                    <li>Давление (в мм рт. ст.)</li>
+                </ol>
+            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+            <section> <!-- Начало блока h2 из фигмы -->
+                <h2>Спецификация виджета  с информацией</h2>
+                <img src = "../img/widgets-info-specs.png" alt = "specification of information widgets"/> <!-- картинка-->
+                <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                    <li>body/natural-900</li> <!-- Первый элемент -->
+                    <li>body/natural-900</li> <!-- Второй элемент -->
+                    <li>body/natural-900</li>
+                </ol>
+                <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
+                <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+        </main>
+
+    </body>
+</html>
