@@ -381,3 +381,14 @@ h4
 
     font-size: var(--body-med);
 }
+
+.demonstration
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
