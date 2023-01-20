@@ -168,7 +168,7 @@ h1
 
 }
 
-p
+p, .description
 {
     margin-top: 8px;
     margin-bottom: 0px;
@@ -185,11 +185,17 @@ p
 
 }
 
+.description
+{
+    margin-bottom: 24px;
+}
+
 img
 {
     
     width: 100%;
     margin-top: 4px;
+    /* margin-bottom: 24px; */
 }
 
 a
@@ -301,4 +307,26 @@ h4
 .margins
 {
     height: 93px;
+}
+
+.large-button
+{
+    height: 52px;
+    padding: 16px;
+
+    background: var(--primary-600);
+
+    border: 1px solid var(--primary-600);
+    border-radius: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--h5-reg);
+    line-height: 20px;
+}
+
+.large-button:hover
+{
+    background-color: var(--primary-600);
 }
