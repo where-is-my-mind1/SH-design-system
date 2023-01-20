@@ -8,23 +8,54 @@
     </head>
     <body>
         <div class = "navigation-block">
-            <img src = "../img/logo.png" alt = "logotype" class = "logotype"/>
-            <ul>
-                <li>
-                    <div class = "section-name">
-                        <img src = "../img/icons/dropdown.png" alt = "style icon"/>Стили 
-                    </div>
-                    <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li>
-                <li><div class = "section-name">
-                    <img src = "../img/icons/dropdown.png" alt = "style icon"/>Навигация 
-                </div>
-                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li></li>
-                <li><div class = "section-name">
-                    <img src = "../img/icons/dropdown.png" alt = "style icon"/>Компоненты 
-                </div>
-                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/></li></li>
-            </ul>
+            <button type = "button" class = "logotype-btn">
+                <img src = "../img/logo.png" alt = "logotype" class = "logotype"/>
+            </button>
+           
+            <button type = "button" class = "dropdown-button">Стили 
+            <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
+            </button>
+                
+            <div class = "dropdown-container">
+                <a href = "#">Цвета</a>
+                <a href = "typography.html">Типографика</a>
+                <a href = "icons.html">Иконки </a>
+                <a href = "grids.html" class = "active">Сетка и отступы</a>
+            </div>
+
+            <button type = "button" class = "dropdown-button">Навигация
+                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
+            </button>
+                   
+
+            <div class = "dropdown-container">
+                <a href = "navigation.html">Навигационные элементы</a>
+                <a href = "#">Поиск</a>
+                <a href = "tabbar.html">Табы</a>
+            </div>
+
+            <button type = "button" class = "dropdown-button">
+                Компоненты 
+                <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
+            </button>
+                    
+            <div class = "dropdown-container">
+                <a href = "buttons.html">Кнопки</a>
+                <a href = "chips.html">Чипсы</a>
+                <a href = "checkbox.html">Чекбоксы </a> 
+                <a href = "tumblers.html"> Тумблеры </a>
+                <a href = "radiobuttons.html">Радио-кнопки</a>
+                <a href = "text_inputs.html">Тектовые поля ввода</a>
+                <a href = "graphs.html">Графики</a>
+                <a href = "widgets.html">Виджеты </a>
+                <a href = "progress.html">Прогрессбар</a> 
+                <a href = "banners.html">Баннеры </a> 
+                <a href = "snackbars.html">Снэкбары </a> 
+                <a href = "modal.html">Модальные окна</a> 
+                <a href = "dialog.html">Диалоговые окна</a>
+            </div>
         </div>
+
         <main>
             
             <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
@@ -64,6 +95,6 @@
 
             
         </main>
-
+        <script src = "../script.js"></script>
     </body>
 </html>
