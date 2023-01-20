@@ -76,6 +76,7 @@ main
 {
     max-width: 892px;
     margin: 0 auto;
+    margin-bottom: 72px;
 
 }
 
@@ -341,11 +342,6 @@ h4
 .margins
 {
     height: 93px;
-}
-
-.last-block
-{
-    margin-bottom: 54px;
 }
 
 .primary-button
