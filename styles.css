@@ -332,6 +332,22 @@ h4
     background-color: var(--natural-200);
 
     border: 0px;
+    border: 1px solid var(--natural-200);
+    border-radius: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--h5-reg);
+    line-height: 20px;
+
+    color: var(--natural-900);
+}
+
+.text-button
+{
+    background-color: var(--white);
+    border: 0px;
     border-radius: 10px;
 
     font-family: 'Roboto', sans-serif;
@@ -352,6 +368,11 @@ h4
 {
     background-color: var(--primary-50);
     border: 1px solid var(--primary-600);
+}
+
+.text-button:hover
+{
+    background-color: var(--natural-100);
 }
 
 .large-button
