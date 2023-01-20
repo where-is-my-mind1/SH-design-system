@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="../styles.css">
-        <title>Типографика</title> <!-- Тут меняем название страницы (показывается во вкладке в браузере) -->
+        <title>Поиск</title> <!-- Тут меняем название страницы (показывается во вкладке в браузере) -->
     </head>
     <body>
         <div class = "navigation-block">
@@ -18,7 +18,7 @@
                 
             <div class = "dropdown-container">
                 <a href = "#">Цвета</a>
-                <a href = "typography.html" class = "active">Типографика</a>
+                <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
             </div>
@@ -26,11 +26,10 @@
             <button type = "button" class = "dropdown-button">Навигация
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
-                   
 
             <div class = "dropdown-container">
                 <a href = "navigation.html">Навигационные элементы</a>
-                <a href = "search.html">Поиск</a>
+                <a href = "search.html" class = "active">Поиск</a>
                 <a href = "tabbar.html">Табы</a>
             </div>
 
@@ -55,22 +54,28 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
-
         <main>
             
             <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Типографика</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Как шрифт, созданный специально для пользовательских интерфейсов, Inter обеспечивает оптимальную читаемость при небольших размерах и вариативную настройку шрифта в Интернете — и все это без потери индивидуальности.</p> <!-- Описание компонента -->
-                <img src = "../img/typography-cover.png" alt = "cover image of typography page"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=101%3A1413&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                <h1>Поиск</h1> <!-- Заголовок 1 -->
+                <p  class = "description">Поиск располагается в хедере приложения и обеспечивает быстрый доступ к информации в дополнении к навигайционным элементам</p> <!-- Описание компонента -->
+                <img src = "../img/search-cover.png" alt = "cover image of search page"/> <!-- Тут поменять картинку-обложку -->
+                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=104%3A234&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
             </section> <!-- Конец блока h1 из фигмы -->
 
             <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Стили</h2>
-                <img src = "../img/typography-styles.png" alt = "styles of text"/> <!-- картинка-->
-                <p>Четкая иерархия типов является ключевым компонентом в создании четкой информационной архитектуры. Четкая иерархия обеспечивает быстрое понимание и повышает эффективность взаимодействия пользователя с приложением.
-                    Модульная шкала — это методология, которая устанавливает логическую последовательность размеров шрифтов в интерфейсе. Мы выбрали большую секундную шкалу (1,125) , чтобы обеспечить иерархический контраст и оптимальную читаемость, не занимая слишком много места в приложении.
-                    </p>
+                <h2>Состония</h2>
+                <img src = "../img/search-states.png" alt = "states of search field"/> <!-- картинка-->
+            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+            <section> <!-- Начало блока h2 из фигмы -->
+                <h2>Анатомия</h2>
+                <img src = "../img/search-anatomy.png" alt = "anatomy of search field"/> <!-- картинка-->
+                <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                    <li>Иконка слева</li> <!-- Первый элемент -->
+                    <li>Иконка справа</li> <!-- Второй элемент -->
+                    <li>Подсказка</li>
+                </ol>
             </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
             

@@ -17,3 +17,11 @@ for (i = 0; i < dropdown.length; i++)
         }
     });
 }
+
+let goToMainBtn = document.getElementById("main-btn");
+
+goToMainBtn.addEventListener("click", function()
+    {
+        window.location.href = 'main.html';
+    }
+);
