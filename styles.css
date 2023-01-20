@@ -67,18 +67,35 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 
+
 body
 {
     margin: 0px;
+    
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
 
 main
 {
     max-width: 892px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-bottom: 72px;
 
 }
+
+.block
+{
+    min-width: 288px;
+
+}
+
 
 .navigation-block
 {
@@ -570,5 +587,58 @@ label
 }
 .radio:checked + label:after {
 	opacity: 1;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    width: 100%;
+}
+
+.person
+{
+    border-radius: 16px 16px 0 0;
+}
+
+.photo
+{
+    width: 100%;
+    height: auto;
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+
+}
+.contact a
+{
+    margin: 0px;
+    color: var(--natural-900);
+    height: 20px;
+}
+
+.icon
+{
+    width: 20px;
+    height: auto;
+}
+
+.content-section
+{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--natural-100);
+    border-radius: 16px;
+
+    height: 460px;
 }
 

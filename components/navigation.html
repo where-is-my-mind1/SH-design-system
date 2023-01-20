@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -27,7 +27,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
 
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "navigation.html" class = "active">Навигационные элементы</a>
                 <a href = "search.html">Поиск</a>
                 <a href = "tabbar.html">Табы</a>
@@ -55,46 +55,50 @@
             </div>
         </div>
 
-        <main>
-            <section class = "first-section"> <!-- Начало блока h1 из фигмы -->
-                <h1>Навигация</h1>
-                <p  class = "description">Панели навигации предлагают постоянный и удобный способ переключения между основными пунктами назначения в приложении. Она всегда доступна пользователю.</p>
-                <img src = "../img/navi-cover.png" alt = "navigation cover image"/>
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=104%3A232&t=WhiLnjdz4rAiV94M-1" target="_blank"> Компонент в Figma </a>
-            </section> <!-- Конец блока h1 из фигмы -->
+        <div class = "container">
+            <div class = "block"></div>
 
-            <section>
-                <h2>Анатомия</h2>
-                <img src = "../img/navi-anatomy.png" alt = "anatomy of navigation block"/>
-                <ol>
-                    <li>Раздел</li>
-                    <li>Выбранный раздел</li>
-                </ol>
-                <h3>Названия разделов</h3>
-                <p>Названия вкладок состоят из 1 существительного, которое кратко описывает тему контента, на который они ссылаются. Названия начинаются с заглавной буквы без знаков препинания.</p>
-                <p>Максимальная длина слова: 10 букв.</p>
-                
-            </section>
+            <main>
+                <section class = "first-section"> <!-- Начало блока h1 из фигмы -->
+                    <h1>Навигация</h1>
+                    <p  class = "description">Панели навигации предлагают постоянный и удобный способ переключения между основными пунктами назначения в приложении. Она всегда доступна пользователю.</p>
+                    <img src = "../img/navi-cover.png" alt = "navigation cover image"/>
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=104%3A232&t=WhiLnjdz4rAiV94M-1" target="_blank"> Компонент в Figma </a>
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            <section>
-                <h2>Состояния</h2>
-                <img src = "../img/navi-states.png" alt = "states of navigation block"/>
-                <p>Раздел, в котором находится пользователь в данное время выделен фоновым natural-50, а текст — natural-900.</p>
-            </section>
+                <section>
+                    <h2>Анатомия</h2>
+                    <img src = "../img/navi-anatomy.png" alt = "anatomy of navigation block"/>
+                    <ol>
+                        <li>Раздел</li>
+                        <li>Выбранный раздел</li>
+                    </ol>
+                    <h3>Названия разделов</h3>
+                    <p>Названия вкладок состоят из 1 существительного, которое кратко описывает тему контента, на который они ссылаются. Названия начинаются с заглавной буквы без знаков препинания.</p>
+                    <p>Максимальная длина слова: 10 букв.</p>
+                    
+                </section>
 
-            <section>
-                <h2>Спецификация</h2>
-                <img src = "../img/navi-specs.png" alt = "specification of navigation block"/>
-                <ol>
-                    <li>body/natural-700</li>
-                    <li>body/natural-900</li>
-                </ol>
-                
-                <h4>Стандартные отступы</h4>
-                <img src = "../img/margins.png" alt = "" style = "width: 760px"/>
-                
-            </section>
-        </main>
+                <section>
+                    <h2>Состояния</h2>
+                    <img src = "../img/navi-states.png" alt = "states of navigation block"/>
+                    <p>Раздел, в котором находится пользователь в данное время выделен фоновым natural-50, а текст — natural-900.</p>
+                </section>
+
+                <section>
+                    <h2>Спецификация</h2>
+                    <img src = "../img/navi-specs.png" alt = "specification of navigation block"/>
+                    <ol>
+                        <li>body/natural-700</li>
+                        <li>body/natural-900</li>
+                    </ol>
+                    
+                    <h4>Стандартные отступы</h4>
+                    <img src = "../img/margins.png" alt = "" style = "width: 760px"/>
+                    
+                </section>
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

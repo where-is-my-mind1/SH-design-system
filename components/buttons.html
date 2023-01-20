@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -39,7 +39,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
                     
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "buttons.html" class = "active">Кнопки</a>
                 <a href = "chips.html">Чипсы</a>
                 <a href = "checkbox.html">Чекбоксы </a> 
@@ -55,62 +55,65 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
+        
+        <div class = "container">
+            <div class = "block"></div>
+            <main>
+                
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Кнопки</h1> <!-- Заголовок 1 -->
+                    <p class = "description">Основной призыв к действию. В современном интернете размылась разница между кнопкой для отправки формы 
+                        или завершения другого действия и выделенной ссылкой, поэтому кнопки используются в этих двух ролях.</p> <!-- Описание компонента -->
+                    <img src = "../img/button-cover.png" alt = "button cover image"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=101%3A1403&t=sSN9yY85wIUhrsJA-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Кнопки</h1> <!-- Заголовок 1 -->
-                <p class = "description">Основной призыв к действию. В современном интернете размылась разница между кнопкой для отправки формы 
-                    или завершения другого действия и выделенной ссылкой, поэтому кнопки используются в этих двух ролях.</p> <!-- Описание компонента -->
-                <img src = "../img/button-cover.png" alt = "button cover image"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=101%3A1403&t=sSN9yY85wIUhrsJA-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/buttons-anatomy.png" alt = "anatomy of buttons"/>
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Иконка слева</li> <!-- Первый элемент -->
+                        <li>Иконка справа</li> <!-- Первый элемент -->
+                        <li>Текст</li>
+                    </ol>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/buttons-anatomy.png" alt = "anatomy of buttons"/>
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Иконка слева</li> <!-- Первый элемент -->
-                    <li>Иконка справа</li> <!-- Первый элемент -->
-                    <li>Текст</li>
-                </ol>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Размеры</h2>
+                    <img src = "../img/buttons-sies.png" alt = "sizes of buttons"/>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Размеры</h2>
-                <img src = "../img/buttons-sies.png" alt = "sizes of buttons"/>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Состояния</h2>
+                    <img src = "../img/buttons-states.png" alt = "states of buttons"/>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Состояния</h2>
-                <img src = "../img/buttons-states.png" alt = "states of buttons"/>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Пример</h2>
+                    <h3>Primary</h3>
+                    <div class = "demonstration">
+                        <button type = "button" class = "large-button primary-button">Большая кнопка</button>
+                        <button type = "button" class = "medium-button primary-button">Средняя кнопка</button>
+                        <button type = "button" class = "small-button primary-button">Маленькая кнопка</button>
+                    </div>
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Пример</h2>
-                <h3>Primary</h3>
-                <div class = "demonstration">
-                    <button type = "button" class = "large-button primary-button">Большая кнопка</button>
-                    <button type = "button" class = "medium-button primary-button">Средняя кнопка</button>
-                    <button type = "button" class = "small-button primary-button">Маленькая кнопка</button>
-                </div>
+                    <h3>Secondary</h3>
+                    <div class = "demonstration">
+                        <button type = "button" class = "large-button secondary-button">Большая кнопка</button>
+                        <button type = "button" class = "medium-button secondary-button">Средняя кнопка</button>
+                        <button type = "button" class = "small-button secondary-button">Маленькая кнопка</button>
+                    </div>
 
-                <h3>Secondary</h3>
-                <div class = "demonstration">
-                    <button type = "button" class = "large-button secondary-button">Большая кнопка</button>
-                    <button type = "button" class = "medium-button secondary-button">Средняя кнопка</button>
-                    <button type = "button" class = "small-button secondary-button">Маленькая кнопка</button>
-                </div>
-
-                <h3>Text</h3>
-                <div class = "demonstration">
-                    <button type = "button" class = "large-button text-button">Большая кнопка</button>
-                    <button type = "button" class = "medium-button text-button">Средняя кнопка</button>
-                    <button type = "button" class = "small-button text-button">Маленькая кнопка</button>
-                </div>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
-            
-        </main>
+                    <h3>Text</h3>
+                    <div class = "demonstration">
+                        <button type = "button" class = "large-button text-button">Большая кнопка</button>
+                        <button type = "button" class = "medium-button text-button">Средняя кнопка</button>
+                        <button type = "button" class = "small-button text-button">Маленькая кнопка</button>
+                    </div>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

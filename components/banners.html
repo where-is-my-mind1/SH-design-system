@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -39,7 +39,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
                     
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "buttons.html">Кнопки</a>
                 <a href = "chips.html">Чипсы</a>
                 <a href = "checkbox.html">Чекбоксы </a> 
@@ -55,44 +55,47 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
+        <div class = "container">
+            <div class = "block"></div>
 
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Баннеры</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Баннеры предоставляют краткие сообщения о процессах приложения в нижней части экрана. Также содержат в себе предупреждения или сообщения об ошибке.</p> <!-- Описание компонента -->
-                <img src = "../img/banners-cover.png" alt = "cover image of banners page"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=136%3A2005&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
+            <main>
+                
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Баннеры</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">Баннеры предоставляют краткие сообщения о процессах приложения в нижней части экрана. Также содержат в себе предупреждения или сообщения об ошибке.</p> <!-- Описание компонента -->
+                    <img src = "../img/banners-cover.png" alt = "cover image of banners page"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=136%3A2005&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/banners-anatomy.png" alt = "anatomy of banners"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Иконка (необязательно)</li> <!-- Первый элемент -->
-                    <li>Сообщение</li> <!-- Второй элемент -->
-                </ol>
-                <h3>Текст баннеров</h3> <!-- Начало блока h3 (если не нужно -- удалить) -->
-                <p>Текст баннеров всегда в одну строку. Если сообщение не помещается в контентер, то в конце “...” -- пользователь может развернуть сообщение.</p> <!-- description блока h3 (если не нужно -- удалить )-->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/banners-anatomy.png" alt = "anatomy of banners"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Иконка (необязательно)</li> <!-- Первый элемент -->
+                        <li>Сообщение</li> <!-- Второй элемент -->
+                    </ol>
+                    <h3>Текст баннеров</h3> <!-- Начало блока h3 (если не нужно -- удалить) -->
+                    <p>Текст баннеров всегда в одну строку. Если сообщение не помещается в контентер, то в конце “...” -- пользователь может развернуть сообщение.</p> <!-- description блока h3 (если не нужно -- удалить )-->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Спецификация</h2>
-                <img src = "../img/banners-specs.png" alt = "specification of snackbars"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>body/white</li> <!-- Первый элемент -->
-                    <li>body/natural-800</li> <!-- Второй элемент -->
-                    <li>body/white</li>
-                    <li>body/natural-500</li>
-                    <li>body/primary-300</li>
-                    <li>body/red-600</li>
-                </ol>
-                <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
-                <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Спецификация</h2>
+                    <img src = "../img/banners-specs.png" alt = "specification of snackbars"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>body/white</li> <!-- Первый элемент -->
+                        <li>body/natural-800</li> <!-- Второй элемент -->
+                        <li>body/white</li>
+                        <li>body/natural-500</li>
+                        <li>body/primary-300</li>
+                        <li>body/red-600</li>
+                    </ol>
+                    <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
+                    <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            
-        </main>
+                
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

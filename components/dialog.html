@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -39,7 +39,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
                     
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "buttons.html">Кнопки</a>
                 <a href = "chips.html">Чипсы</a>
                 <a href = "checkbox.html">Чекбоксы </a> 
@@ -56,49 +56,53 @@
             </div>
         </div>
 
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Диалоговые окна</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Диалоговое окно — это дополнительное окно, которое позволяет пользователям выполнять команду, задавать вопрос пользователям или предоставить пользователям информацию или отзывы о ходе выполнения.</p> <!-- Описание компонента -->
-                <img src = "../img/dialog-cover.png" alt = "cover image of dialogue windows page"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=136%3A2483&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
+        <div class = "container">
+            <div class = "block"></div>
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/dialog-anatomy.png" alt = "anatomy of dialogue window"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Заголовок диалогового окна</li> <!-- Первый элемент -->
-                    <li>Основной текст диалогового окна</li> <!-- Второй элемент -->
-                    <li>Кнопка диалогового окна</li>
-                    <li>Кнопка “закрыть диалоговое окно”</li>
-                </ol>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
-
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Состония</h2>
-                <img src = "../img/dialog-states.png" alt = "states of dialogue window"/> <!-- картинка-->
-                <p>Диалоговые окна в данной дизайн системе могут иметь 2 состояния: 
-                    по умолчанию и активное.</p>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
-
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Спецификация</h2>
-                <img src = "../img/dialog-specs.png" alt = "specification of dialogue window"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>body/natural-800</li> <!-- Первый элемент -->
-                    <li>body/natural-100</li> <!-- Первый элемент -->
-                    <li>body/primary-600</li>
-                    <li>body/natural-600</li>
-                </ol> <!-- Описание под картинкой -->
-                <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
-                <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+            <main>
                 
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Диалоговые окна</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">Диалоговое окно — это дополнительное окно, которое позволяет пользователям выполнять команду, задавать вопрос пользователям или предоставить пользователям информацию или отзывы о ходе выполнения.</p> <!-- Описание компонента -->
+                    <img src = "../img/dialog-cover.png" alt = "cover image of dialogue windows page"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=136%3A2483&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            
-        </main>
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/dialog-anatomy.png" alt = "anatomy of dialogue window"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Заголовок диалогового окна</li> <!-- Первый элемент -->
+                        <li>Основной текст диалогового окна</li> <!-- Второй элемент -->
+                        <li>Кнопка диалогового окна</li>
+                        <li>Кнопка “закрыть диалоговое окно”</li>
+                    </ol>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Состония</h2>
+                    <img src = "../img/dialog-states.png" alt = "states of dialogue window"/> <!-- картинка-->
+                    <p>Диалоговые окна в данной дизайн системе могут иметь 2 состояния: 
+                        по умолчанию и активное.</p>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Спецификация</h2>
+                    <img src = "../img/dialog-specs.png" alt = "specification of dialogue window"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>body/natural-800</li> <!-- Первый элемент -->
+                        <li>body/natural-100</li> <!-- Первый элемент -->
+                        <li>body/primary-600</li>
+                        <li>body/natural-600</li>
+                    </ol> <!-- Описание под картинкой -->
+                    <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
+                    <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+                    
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+                
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

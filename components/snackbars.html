@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -38,7 +38,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
                     
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "buttons.html">Кнопки</a>
                 <a href = "chips.html">Чипсы</a>
                 <a href = "checkbox.html">Чекбоксы </a> 
@@ -54,41 +54,44 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Снэкбары</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Снэкбары предоставляют краткие сообщения о процессах приложения в нижней части экрана.</p> <!-- Описание компонента -->
-                <img src = "../img/snackbars-cover.png" alt = "cover image of snavckbars page"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=136%3A2005&t=WhiLnjdz4rAiV94M-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
+        <div class = "container">
+            <div class = "block"></div>
+            <main>
+                
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Снэкбары</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">Снэкбары предоставляют краткие сообщения о процессах приложения в нижней части экрана.</p> <!-- Описание компонента -->
+                    <img src = "../img/snackbars-cover.png" alt = "cover image of snavckbars page"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=136%3A2005&t=WhiLnjdz4rAiV94M-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/snackbars-anatomy.png" alt = "anatomy of snackbars"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Текст оповещения</li> <!-- Первый элемент -->
-                    <li>Кнопка действия (необязательно)</li> <!-- Второй элемент -->
-                </ol>
-                <h3>Текст оповещений</h3> <!-- Начало блока h3 (если не нужно -- удалить) -->
-                <p>Снэкбары содержат текстовую метку, которая напрямую относится к выполняемому процессу. На мобильных устройствах текстовая метка может содержать до двух строк текста.</p> <!-- description блока h3 (если не нужно -- удалить )-->
-                <p>Если действие длинное, его можно отобразить на третьей строке.</p>
-                <img src = "../img/snackbars-text.png" alt = "demostration of big button in snackbar"/>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/snackbars-anatomy.png" alt = "anatomy of snackbars"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Текст оповещения</li> <!-- Первый элемент -->
+                        <li>Кнопка действия (необязательно)</li> <!-- Второй элемент -->
+                    </ol>
+                    <h3>Текст оповещений</h3> <!-- Начало блока h3 (если не нужно -- удалить) -->
+                    <p>Снэкбары содержат текстовую метку, которая напрямую относится к выполняемому процессу. На мобильных устройствах текстовая метка может содержать до двух строк текста.</p> <!-- description блока h3 (если не нужно -- удалить )-->
+                    <p>Если действие длинное, его можно отобразить на третьей строке.</p>
+                    <img src = "../img/snackbars-text.png" alt = "demostration of big button in snackbar"/>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Спецификация</h2>
-                <img src = "../img/snackbars-specs.png" alt = "specification of snackbars"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>body/natural-800</li> <!-- Первый элемент -->
-                    <li>body/natural-800</li> <!-- Второй элемент -->
-                </ol>
-                <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
-                <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Спецификация</h2>
+                    <img src = "../img/snackbars-specs.png" alt = "specification of snackbars"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>body/natural-800</li> <!-- Первый элемент -->
+                        <li>body/natural-800</li> <!-- Второй элемент -->
+                    </ol>
+                    <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
+                    <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            
-        </main>
+                
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -27,7 +27,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
 
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "navigation.html">Навигационные элементы</a>
                 <a href = "search.html" class = "active">Поиск</a>
                 <a href = "tabbar.html">Табы</a>
@@ -54,32 +54,35 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Поиск</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Поиск располагается в хедере приложения и обеспечивает быстрый доступ к информации в дополнении к навигайционным элементам</p> <!-- Описание компонента -->
-                <img src = "../img/search-cover.png" alt = "cover image of search page"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=104%3A234&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
+        <div class = "container">
+            <div class = "block"></div>
+            <main>
+                
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Поиск</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">Поиск располагается в хедере приложения и обеспечивает быстрый доступ к информации в дополнении к навигайционным элементам</p> <!-- Описание компонента -->
+                    <img src = "../img/search-cover.png" alt = "cover image of search page"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=104%3A234&t=D32LgzAFVQryRXzH-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Состония</h2>
-                <img src = "../img/search-states.png" alt = "states of search field"/> <!-- картинка-->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Состония</h2>
+                    <img src = "../img/search-states.png" alt = "states of search field"/> <!-- картинка-->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/search-anatomy.png" alt = "anatomy of search field"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Иконка слева</li> <!-- Первый элемент -->
-                    <li>Иконка справа</li> <!-- Второй элемент -->
-                    <li>Подсказка</li>
-                </ol>
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/search-anatomy.png" alt = "anatomy of search field"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Иконка слева</li> <!-- Первый элемент -->
+                        <li>Иконка справа</li> <!-- Второй элемент -->
+                        <li>Подсказка</li>
+                    </ol>
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            
-        </main>
+                
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

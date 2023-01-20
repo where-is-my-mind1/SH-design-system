@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -38,7 +38,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
                     
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "buttons.html">Кнопки</a>
                 <a href = "chips.html">Чипсы</a>
                 <a href = "checkbox.html">Чекбоксы </a> 
@@ -54,43 +54,46 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Прогресс-бар</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Прогресс-бар (идикатор выполнения) визуально отображают ход загрузки системы, например загрузку файла или загрузку страницы, а также прогресс пользователя, например заполнение формы.</p> <!-- Описание компонента -->
-                <img src = "../img/progress-cover.png" alt = "cover of progress bar"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=132%3A804&t=WhiLnjdz4rAiV94M-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
-
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/progress-anatomy.png" alt = "anatomy of progress bar"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Прогресс</li> <!-- Первый элемент -->
-                    <li>Фон прогресса</li> <!-- Второй элемент -->
-                    <li>Текст прогрессбара </li> 
-                </ol>
+        <div class = "container">
+            <div class = "block"></div>
+            <main>
                 
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Прогресс-бар</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">Прогресс-бар (идикатор выполнения) визуально отображают ход загрузки системы, например загрузку файла или загрузку страницы, а также прогресс пользователя, например заполнение формы.</p> <!-- Описание компонента -->
+                    <img src = "../img/progress-cover.png" alt = "cover of progress bar"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=132%3A804&t=WhiLnjdz4rAiV94M-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Состония</h2>
-                <img src = "../img/progress-states.png" alt = "states of progress bar"/> <!-- картинка-->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/progress-anatomy.png" alt = "anatomy of progress bar"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Прогресс</li> <!-- Первый элемент -->
+                        <li>Фон прогресса</li> <!-- Второй элемент -->
+                        <li>Текст прогрессбара </li> 
+                    </ol>
+                    
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Спецификация</h2>
-                <img src = "../img/progress-specs.png" alt = "specification of progress bar"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>body/primary-600</li> <!-- Первый элемент -->
-                    <li>body/natural-900</li> <!-- Второй элемент -->
-                    <li>body/natural-100</li>
-                    <li>body/white</li>
-                </ol>
-                
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
-        </main>
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Состония</h2>
+                    <img src = "../img/progress-states.png" alt = "states of progress bar"/> <!-- картинка-->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Спецификация</h2>
+                    <img src = "../img/progress-specs.png" alt = "specification of progress bar"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>body/primary-600</li> <!-- Первый элемент -->
+                        <li>body/natural-900</li> <!-- Второй элемент -->
+                        <li>body/natural-100</li>
+                        <li>body/white</li>
+                    </ol>
+                    
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

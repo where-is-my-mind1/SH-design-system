@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="../styles.css">
-        <title>Шаблон</title> <!-- Тут меняем название страницы (показывается во вкладке в браузере) -->
+        <title>Smart home</title> <!-- Тут меняем название страницы (показывается во вкладке в браузере) -->
     </head>
     <body>
         <div class = "navigation-block">
@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -54,44 +54,115 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Дизайн система «Smart home»</h1> <!-- Заголовок 1 -->
-                <p  class = "description">SmartHome дизайн-система — это система руководств, компонентов и инструментов, которая упрощает сотрудничество между дизайнерами и разработчиками и помогает командам быстро создавать эргономичный и доступный дизайн для управления системой "умный дом".</p> <!-- Описание компонента -->
-                <img src = "../img/main-cover.png" alt = "cover image of main page"/> <!-- Тут поменять картинку-обложку -->
-            </section> <!-- Конец блока h1 из фигмы -->
-
-            <!-- <section> 
-                <h2>Цель дизайн системы</h2>
-                <p>Систематизировать элементы интерфейса и руководства использования дизайн системы для управления системой "умный дом"</p> 
-           
-                <h3>Задачи дизайн системы</h3>
-                <ol>
-                    <li>Упростить коммуникацию между дизайнерами и разработчиками</li>
-                    <li>Обеспечить доступность</li>
-                    <li>Облегчить жизнь пользователю за счет стандартизации UI и логики работы</li>
-                    <li>Повысить узнаваемость бренда благодаря единому визуальному стилю всех проектов</li>
-                    <li>Создать конкурентное преимущество</li>
-                </ol>
-
-                <h3>Основные принципы</h3>
-                <ul>
-                    <li>Эргономичность</li>
-                    <li>Интуитивность</li>
-                    <li>Простота использования</li>
-                    <li>Доступность</li>
-                    <li>Узнаваемость</li>
-                </ul>
+        <div class = "container">
+            <div class = "block"></div>
+            <main>
                 
-            </section> -->
-            <img src = "../img/main-cards.png" alt = "navigation" style="margin-top:20px; margin-bottom:20px;"/>
-            <section>
-                <h2>Над созданием работали</h2>
-                <img src = "../img/main-person-cards.png"/>
-            </section>
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Дизайн система «Smart home»</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">SmartHome дизайн-система — это система руководств, компонентов и инструментов, которая упрощает сотрудничество между дизайнерами и разработчиками и помогает командам быстро создавать эргономичный и доступный дизайн для управления системой "умный дом".</p> <!-- Описание компонента -->
+                    <img src = "../img/main-cover.png" alt = "cover image of main page"/> <!-- Тут поменять картинку-обложку -->
+                </section> <!-- Конец блока h1 из фигмы -->
+
+                <!-- <section> 
+                    <h2>Цель дизайн системы</h2>
+                    <p>Систематизировать элементы интерфейса и руководства использования дизайн системы для управления системой "умный дом"</p> 
             
-        </main>
+                    <h3>Задачи дизайн системы</h3>
+                    <ol>
+                        <li>Упростить коммуникацию между дизайнерами и разработчиками</li>
+                        <li>Обеспечить доступность</li>
+                        <li>Облегчить жизнь пользователю за счет стандартизации UI и логики работы</li>
+                        <li>Повысить узнаваемость бренда благодаря единому визуальному стилю всех проектов</li>
+                        <li>Создать конкурентное преимущество</li>
+                    </ol>
+
+                    <h3>Основные принципы</h3>
+                    <ul>
+                        <li>Эргономичность</li>
+                        <li>Интуитивность</li>
+                        <li>Простота использования</li>
+                        <li>Доступность</li>
+                        <li>Узнаваемость</li>
+                    </ul>
+                    
+                </section> -->
+                <section>
+                    <div class = "row">
+                        <div class = "content-section">
+                            <h4 style = "color: var(--natural-500);">Стили</h4>
+                            <p>Цвета</p>
+                            <p>Типографика</p>
+                            <p>Иконки</p>
+                            <p>Отступы</p>
+                        </div>
+                        <div class = "content-section">
+                            <h4 style = "color: var(--natural-500);">Навигация</h4>
+                            <p>Навигационные элементы</p>
+                            <p>Поиск</p>
+                            <p>Табы</p>
+                        </div>
+                        <div class = "content-section">
+                            <h4 style = "color: var(--natural-500);">Компоненты</h4>
+                            <p>Чипсы</p>
+                            <p>Чекбоксы </p> 
+                            <p> Тумблеры </p>
+                            <p>Радио-кнопки</p>
+                            <p>Тектовые поля ввода</p>
+                            <p>Графики</p>
+                            <p>Виджеты </p>
+                            <p>Прогрессбар</p> 
+                            <p>Баннеры </p> 
+                            <p>Снэкбары </p> 
+                            <p>Модальные окна</p> 
+                            <p>Диалоговые окна</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Над созданием работали</h2>
+                    <div class = "row">
+                        <div class = "person">
+                            <img src = "../img/main-photo1.png" class = "photo"/>
+                            <h4>Ткаченко Анастасия</h4>
+                            <div class = "contact">
+                                <img src = "../img/icons/behance-icon.png" class = "icon"/>
+                                <a href = "https://www.behance.net/where_is_my_mind1">where_is_my_mind1</a>
+                            </div>
+                            <div class = "contact">
+                                <img src = "../img/icons/tg-icon.png" class = "icon"/>
+                                <a href = "https://t.me/where_is_my_mind1">@where_is_my_mind1</a>
+                            </div>
+                        </div>
+                        <div class = "person">
+                            <img src = "../img/main-photo2.png" class = "photo"/>
+                            <h4>Огай Александра</h4>
+                            <div class = "contact">
+                                <img src = "../img/icons/behance-icon.png" class = "icon"/>
+                                <a href = "https://www.behance.net/alexandra-ogai">alexandra-ogai</a>
+                            </div>
+                            <div class = "contact">
+                                <img src = "../img/icons/tg-icon.png" class = "icon"/>
+                                <a href = "https://t.me/mykimeow">@mykimeow</a>
+                            </div>
+                        </div>
+                        <div class = "person">
+                            <img src = "../img/main-photo3.png" class = "photo"/>
+                            <h4>Уткина Мария</h4>
+                            <div class = "contact">
+                                <img src = "../img/icons/behance-icon.png" class = "icon"/>
+                                <a href = "https://www.behance.net/mariyaisaua5ff">mariyaisaua5ff</a>
+                            </div>
+                            <div class = "contact">
+                                <img src = "../img/icons/tg-icon.png" class = "icon"/>
+                                <a href = "https://t.me/mash_utkina">@mash_utkina</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>

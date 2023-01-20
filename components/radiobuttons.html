@@ -17,7 +17,7 @@
             </button>
                 
             <div class = "dropdown-container">
-                <a href = "#">Цвета</a>
+                <a href = "colors.html">Цвета</a>
                 <a href = "typography.html">Типографика</a>
                 <a href = "icons.html">Иконки </a>
                 <a href = "grids.html">Сетка и отступы</a>
@@ -38,7 +38,7 @@
                 <img src = "../img/icons/dropdown.png" alt = "dropdown button"/>
             </button>
                     
-            <div class = "dropdown-container">
+            <div class = "dropdown-container" style="display: block;">
                 <a href = "buttons.html">Кнопки</a>
                 <a href = "chips.html">Чипсы</a>
                 <a href = "checkbox.html">Чекбоксы </a> 
@@ -54,48 +54,51 @@
                 <a href = "dialog.html">Диалоговые окна</a>
             </div>
         </div>
-        <main>
-            
-            <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
-                <h1>Радио-кнопки</h1> <!-- Заголовок 1 -->
-                <p  class = "description">Мы используем радио-кнопки, чтобы позволить пользователям выбирать один эксклюзивный вариант из списка нескольких вариантов.</p> <!-- Описание компонента -->
-                <img src = "../img/radio-cover.png" alt = "cover of radio buttons page"/> <!-- Тут поменять картинку-обложку -->
-                <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=101%3A1686&t=WhiLnjdz4rAiV94M-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
-            </section> <!-- Конец блока h1 из фигмы -->
+        <div class = "container">
+            <div class = "block"></div>
+            <main>
+                
+                <section class = "first-section">  <!-- Начало блока h1 из фигмы -->
+                    <h1>Радио-кнопки</h1> <!-- Заголовок 1 -->
+                    <p  class = "description">Мы используем радио-кнопки, чтобы позволить пользователям выбирать один эксклюзивный вариант из списка нескольких вариантов.</p> <!-- Описание компонента -->
+                    <img src = "../img/radio-cover.png" alt = "cover of radio buttons page"/> <!-- Тут поменять картинку-обложку -->
+                    <a href = "https://www.figma.com/file/mK8EmSqG0TfqE2VLKAnOEs/Smart-home?node-id=101%3A1686&t=WhiLnjdz4rAiV94M-1" target="_blank">Компонент в Figma</a> <!-- Тут поменять ссылку-->
+                </section> <!-- Конец блока h1 из фигмы -->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Анатомия</h2>
-                <img src = "../img/radio-anatomy.png" alt = "anatomy of radio buttons"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>Радио-кнопка</li> <!-- Первый элемент -->
-                    <li>Текст радио-кнопки</li> <!-- Второй элемент -->
-                </ol>
-                <h3>Текст радио-кнопок</h3> <!-- Начало блока h3 (если не нужно -- удалить) -->
-                <p>Текст в радио-кнопке пишутся в регистре предложения, если только это не имя собственное или метка, введенная пользователем. ‍</p> <!-- description блока h3 (если не нужно -- удалить )-->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Анатомия</h2>
+                    <img src = "../img/radio-anatomy.png" alt = "anatomy of radio buttons"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>Радио-кнопка</li> <!-- Первый элемент -->
+                        <li>Текст радио-кнопки</li> <!-- Второй элемент -->
+                    </ol>
+                    <h3>Текст радио-кнопок</h3> <!-- Начало блока h3 (если не нужно -- удалить) -->
+                    <p>Текст в радио-кнопке пишутся в регистре предложения, если только это не имя собственное или метка, введенная пользователем. ‍</p> <!-- description блока h3 (если не нужно -- удалить )-->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Состония</h2>
-                <img src = "../img/radio-states.png" alt = "states of radio buttons"/> <!-- картинка-->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Состония</h2>
+                    <img src = "../img/radio-states.png" alt = "states of radio buttons"/> <!-- картинка-->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section> <!-- Начало блока h2 из фигмы -->
-                <h2>Спецификация</h2>
-                <img src = "../img/radio-specs.png" alt = "specification of radio"/> <!-- картинка-->
-                <ol> <!-- Подпись под картинкой - нумерованный список --> 
-                    <li>body/black-700</li> <!-- Первый элемент -->
-                    <li>body/orange-600</li> <!-- Второй элемент -->
-                </ol>
-                <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
-                <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
-            </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
+                <section> <!-- Начало блока h2 из фигмы -->
+                    <h2>Спецификация</h2>
+                    <img src = "../img/radio-specs.png" alt = "specification of radio"/> <!-- картинка-->
+                    <ol> <!-- Подпись под картинкой - нумерованный список --> 
+                        <li>body/black-700</li> <!-- Первый элемент -->
+                        <li>body/orange-600</li> <!-- Второй элемент -->
+                    </ol>
+                    <h4>Стандартные отступы</h4> <!-- Начало блока h4 стандартные отступы (если не нужно -- удалить) -->
+                    <img src = "../img/margins.png" alt = "" class = "margins" style = "width: 760px"/> <!-- Сюда вставить картинку с отступами -->
+                </section> <!-- Конец блока h2, НЕ УДАЛЯТЬ!-->
 
-            <section>
-                <h2>Пример</h2>
-                <input type="radio" class="radio" id="radio" />
-                <label for="radio">Label</label>
-            </section>
-        </main>
+                <section>
+                    <h2>Пример</h2>
+                    <input type="radio" class="radio" id="radio" />
+                    <label for="radio">Label</label>
+                </section>
+            </main>
+        </div>
         <script src = "../script.js"></script>
     </body>
 </html>
