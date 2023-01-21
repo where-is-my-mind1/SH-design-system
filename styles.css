@@ -643,3 +643,22 @@ label
     height: 460px;
 }
 
+.color-palette
+{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.color
+{
+    padding: 15px;
+    width: 90px;
+}
+
