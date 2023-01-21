@@ -461,6 +461,7 @@ h4
     flex-direction: row;
     gap: 50px;
     align-items: center;
+    justify-content: center;
 
     margin-top: 16px;
     margin-bottom: 20px;
